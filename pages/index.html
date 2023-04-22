@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html  lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Workout Log App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Workout Log</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="home-text">Log workout below</h1>
+    </main>
+    <footer>
+      <form>
+        <input type="text" id="workoutEntryId" placeholder="Enter Workout..." />
+        <button type="submit" onclick="submitWorkout(event)">Submit</button>
+      </form>
+      <div id="workoutData">
+        <h2>Workout Log</h2>
+        <ul id="workoutList"></ul>
+      </div>
+    </footer>
+    <script>
+      function submitWorkout(event) {
+        event.preventDefault();
+        const workoutEntry = document.getElementById("workoutEntryId").value;
+        const request = new XMLHttpRequest();
+        request.open("POST", "/api/openai", true);
+        request.setRequestHeader("Content-Type", "application/json");
+        const workoutData = { workout: workoutEntry };
+        const jsonData = JSON.stringify(workoutData);
+        request.onreadystatechange = function() {
+          if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
+            const response = JSON.parse(request.responseText);
+            const workoutList = document.getElementById("workoutList");
+            const listItem = document.createElement("li");
+            listItem.innerText = response.message;
+            workoutList.appendChild(listItem);
+          }
+        };
+        
+        request.send(jsonData);
+        console.log(jsonData);
+      }
+    </script>
+  </body>
+</html>
