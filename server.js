@@ -1,6 +1,5 @@
 require('dotenv').config()
 const express = require('express');
-const cors = require('cors');
 const app = express();
 const MONGO_URI = process.env.MONGO_URI
 const PORT = process.env.PORT;
@@ -27,8 +26,6 @@ app.get("/stats", (req, res) => {
 
 //Server starts listening on PORT
 app.listen(PORT, () => console.log(`Console listening at ${PORT}`))
-
-app.use(cors());
 
 app.options("*", (req, res, next) => {
     res.header('Access-Control-Allow-Origin', "*");
