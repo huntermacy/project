@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Statistics Page</title>
+</head>
+<body>
+    <header>
+      <h1>Workout Log</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/log">Log</a></li>
+          <li><a href="/stats">Stats</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 class="home-text">My Log</h1>
+      <ul id="workoutList"></ul>
+    </main>
+    <script>
+        function displayWorkout() {
+          const request = new XMLHttpRequest();
+          request.open("GET", "/workout", true);
+          request.onreadystatechange = function() {
+            if (request.readyState === 4 && request.status === 200) {
+              const response = JSON.parse(request.responseText);
+              const workoutList = document.getElementById("workoutList");
+              response.forEach(function(workout) {
+                const listItem = document.createElement("li");
+                const workoutType = document.createElement("span");
+                const workoutSets = document.createElement("span");
+                const workoutReps = document.createElement("span");
+                const workoutWeight = document.createElement("span");
+                
+                workoutType.innerText = workout.type;
+                workoutSets.innerText = `Sets: ${workout.sets}`;
+                workoutReps.innerText = `Reps: ${workout.reps}`;
+                workoutWeight.innerText = `Weight: ${workout.weight}`;
+                
+                listItem.appendChild(workoutType);
+                listItem.appendChild(workoutSets);
+                listItem.appendChild(workoutReps);
+                listItem.appendChild(workoutWeight);
+                workoutList.appendChild(listItem);
+              });
+            }
+          };
+          request.send();
+        }
+        displayWorkout();
+    </script>
+  </body>
+</html>

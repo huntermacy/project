@@ -1,26 +1,34 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
+const db = require('./models/workout');
+db.connect();
+
+//Environment Variables
 const MONGO_URI = process.env.MONGO_URI
 const PORT = process.env.PORT;
 
 app.use(express.static('public'));
 app.use(express.static('css'));
-
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 
+const databaseRouter = require('./api/workout')
+app.use('/workout', databaseRouter)
+
 const openAiGet = require("./api/openai")
 app.use("/api/openai", openAiGet)
 
-//Serve index.html page to the client
+//Serve pages to the client
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/pages/index.html");
 })
-//Serve stats.html page to the client
 app.get("/stats", (req, res) => {
     res.sendFile(__dirname + "/pages/stats.html");
+})
+app.get("/log", (req, res) => {
+    res.sendFile(__dirname + "/pages/log.html");
 })
 
 
