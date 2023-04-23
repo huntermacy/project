@@ -42,16 +42,16 @@
           if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
             const response = JSON.parse(request.responseText);
             
-            const JSONreps = response.reps;
-            const JSONweight = response.weight;
-            const JSONsets = response.sets;
-            const JSONtype = response.type;
+            const jsonReps = response.reps;
+            const jsonWeight = response.weight;
+            const jsonSets = response.sets;
+            const jsonType = response.type;
 
             const workoutList = document.getElementById("workoutList");
             const listDate = document.createElement("li");
             const listItem = document.createElement("li");
 
-            listItem.innerText = "Successfully Logged a " + JSONtype + " workout at " + JSONweight + "lbs for " + JSONsets + " sets for " + JSONreps + " reps each";
+            listItem.innerText = "Successfully Logged a " + jsonType + " workout at " + jsonWeight + "lbs for " + jsonSets + " sets for " + jsonReps + " reps each";
             workoutList.appendChild(listItem);
           }
         };
