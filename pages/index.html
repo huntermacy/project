@@ -31,6 +31,7 @@
     </footer>
     <script>
       function submitWorkout(event) {
+        event.preventDefault();
         const workoutEntry = document.getElementById("workoutEntryId").value;
         const request = new XMLHttpRequest();
         request.open("POST", "/api/openai", true);
@@ -43,14 +44,14 @@
             
             const JSONreps = response.reps;
             const JSONweight = response.weight;
-            const JSONsets = response.reps;
+            const JSONsets = response.sets;
             const JSONtype = response.type;
 
             const workoutList = document.getElementById("workoutList");
             const listDate = document.createElement("li");
             const listItem = document.createElement("li");
 
-            listItem.innerText = "Successfully logged a " + JSONtype + " workout at " + JSONweight + "lbs for " + JSONsets + " sets for " + JSONreps + " reps each";
+            listItem.innerText = "Successfully Logged a " + JSONtype + " workout at " + JSONweight + "lbs for " + JSONsets + " sets for " + JSONreps + " reps each";
             workoutList.appendChild(listItem);
           }
         };
