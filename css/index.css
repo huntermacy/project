@@ -163,3 +163,9 @@ button[type="submit"]:hover {
     width: 24px;
     height: 24px;
 }
+
+#conceptParagraph {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
