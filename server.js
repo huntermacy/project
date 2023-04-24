@@ -30,6 +30,9 @@ app.get("/stats", (req, res) => {
 app.get("/log", (req, res) => {
     res.sendFile(__dirname + "/pages/log.html");
 })
+app.get("/concept", (req, res) => {
+    res.sendFile(__dirname + "/pages/concept.html");
+})
 
 
 //Server starts listening on PORT
