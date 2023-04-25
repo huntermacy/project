@@ -2,28 +2,42 @@
 My first repository
 
 Current State:
-I can enter in my workout and ChatGPT will parse that data and put
-it into JSON strucuture = {"reps": 5, "sets": 5, "weight": 5, "type": bench}
+Display screen working, statistics page working
 
 
 To Do List:
-1. Put timestamp into database
-2. Organize JavaScript files for scalability
-3. Upgrade UI for Log page
-4. Upgrade UI for Stats Page
-5. Create login mechanism
-6. Research steps to release
+1. Put timestamp into database upon entry
+2. Organize JavaScript files better - use separated functions
+3. Upgrate database document organization
+- Research, Design, Implement
+4. Upgrade UI/UX for Log page
+- Research, Design, Implement
+5. Upgrade UI/UX for Stats Page
+- Research, Design, Implement
+6. Create login mechanism
+7. Research steps to release
 
 
 Learn More JavaScript: https://codewithmosh.com/p/ultimate-javascript-series
 
 Questions to Study:
 1. What is the difference between synchronous and asynchronous code in JavaScript?
+
 2. How do you handle errors in JavaScript applications?
+- Try/Catch blocks
+- Error objects (error.name, error.message, error.stack)
+- Custom functions
+- React error boundaries
+
 3. Explain the concept of closures in JavaScript.
+- A closure is a feature in JavaScript that allows functions to access variables that are declared outside of their own scope.
+- Closures are useful for a variety of tasks, inlcuding creating private variables and functions, implementing data hiding, and managing state in asynchronous operations. By using closures, we can write more modular and maintainable code in JavaScript.
+
 4. What are the differences between null and undefined in JavaScript?
 5. Can you describe the differences between the following HTTP request methods: GET, POST, PUT, and DELETE?
+
 6. What is CORS, and how do you handle it in a web application?
+
 7. How do you optimize the performance of a JavaScript application?
 8. What is the difference between REST and GraphQL, and which one would you use for a particular project?
 9. Can you explain the purpose of a middleware in a Node.js application?

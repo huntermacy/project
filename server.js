@@ -1,8 +1,7 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
-const db = require('./models/workout');
-db.connect();
+const dbConnect = require('./models/workout');
 
 //Environment Variables
 const MONGO_URI = process.env.MONGO_URI

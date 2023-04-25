@@ -2,6 +2,8 @@ const dotenv = require('dotenv')
 
 const express = require("express");
 const router = express.Router();
+const dbConnect = require('../models/workout')
+dbConnect.connect();
 
 const { MongoClient } = require('mongodb');
 const uri = process.env.MONGO_URI;
