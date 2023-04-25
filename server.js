@@ -17,6 +17,9 @@ app.use('/workout', databaseRouter)
 const openAi = require("./api/openai")
 app.use("/api/openai", openAi)
 
+const time = require("./models/time")
+app.use("/models/time", time)
+
 //Serve pages to the client
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/pages/index.html");

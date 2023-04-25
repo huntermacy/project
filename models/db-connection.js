@@ -7,11 +7,13 @@ async function connect() {
     try {
         await client.connect();
         console.log("Successfully connected to DB");
+        const currentDate = new Date();
+        console.log(currentDate.getTime())
     } catch (err) {
         console.error(err);
     }
 }
-
+connect();
 // Insert weight-lifting workout into database
 async function insertWorkout(workoutJSON) {
     try {

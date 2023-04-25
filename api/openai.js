@@ -12,7 +12,6 @@ const openai = new OpenAIApi(configuration);
 
 router.post("/", async (req, res) => {
     try {
-        dbConnect.connect();
         const workout = req.body.workout;
         const response = await openai.createCompletion({
             model: "text-davinci-003",

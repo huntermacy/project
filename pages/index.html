@@ -19,7 +19,25 @@
       </nav>
     </header>
     <main>
-      <h1 class="home-text">Enter Workout Below</h1>
+      <h1 class="home-text">Time is Limited</h1>
+      <h2>Get to Work</h2>
+      <div id="clock"></div>
+      <script>
+        function displayClock() {
+          const clock = document.getElementById("clock");
+          const date = new Date();
+          const dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
+          const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
+          const day = date.getDate();
+          const year = date.getFullYear();
+          const hours = date.getHours();
+          const minutes = date.getMinutes();
+          const seconds = date.getSeconds();
+          const time = `${dayOfWeek}, ${month} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
+          clock.textContent = time;
+      }
+      setInterval(displayClock, 1000);
+      </script>
     </main>
     <footer>
       <ul id="workoutList"></ul>
