@@ -1,10 +1,8 @@
 require('dotenv').config()
 const express = require('express');
 const app = express();
-const dbConnect = require('./models/workout');
 
 //Environment Variables
-const MONGO_URI = process.env.MONGO_URI
 const PORT = process.env.PORT;
 
 app.use(express.static('public'));
@@ -16,8 +14,8 @@ app.use(express.urlencoded({ extended: false }));
 const databaseRouter = require('./api/workout')
 app.use('/workout', databaseRouter)
 
-const openAiGet = require("./api/openai")
-app.use("/api/openai", openAiGet)
+const openAi = require("./api/openai")
+app.use("/api/openai", openAi)
 
 //Serve pages to the client
 app.get("/", (req, res) => {
