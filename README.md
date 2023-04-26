@@ -6,9 +6,9 @@ Display screen working, statistics page working
 
 
 To Do List:
-1. Put timestamp into database upon entry
-2. Organize JavaScript files better - use separated functions
-3. Upgrate database document organization
+1. DONE - Put timestamp into database upon entry
+2. DONE - Organize JavaScript files better - use separated functions
+3. Upgrade database document organization
 - Research, Design, Implement
 4. Upgrade UI/UX for Log page
 - Research, Design, Implement

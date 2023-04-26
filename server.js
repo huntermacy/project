@@ -6,6 +6,7 @@ const app = express();
 const PORT = process.env.PORT;
 
 app.use(express.static('public'));
+app.use(express.static('pages'));
 app.use(express.static('css'));
 app.use(express.json());
 
@@ -16,9 +17,6 @@ app.use('/workout', databaseRouter)
 
 const openAi = require("./api/openai")
 app.use("/api/openai", openAi)
-
-const time = require("./models/time")
-app.use("/models/time", time)
 
 //Serve pages to the client
 app.get("/", (req, res) => {

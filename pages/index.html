@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>My App</title>
+    <title>Journal</title>
+    <script src="functions/displayClock.js"></script>
   </head>
   <body>
     <header>
@@ -22,22 +23,6 @@
       <h1 class="home-text">Time is Limited</h1>
       <h2>Get to Work</h2>
       <div id="clock"></div>
-      <script>
-        function displayClock() {
-          const clock = document.getElementById("clock");
-          const date = new Date();
-          const dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
-          const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
-          const day = date.getDate();
-          const year = date.getFullYear();
-          const hours = date.getHours();
-          const minutes = date.getMinutes();
-          const seconds = date.getSeconds();
-          const time = `${dayOfWeek}, ${month} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
-          clock.textContent = time;
-      }
-      setInterval(displayClock, 1000);
-      </script>
     </main>
     <footer>
       <ul id="workoutList"></ul>
@@ -46,29 +31,6 @@
         <button type="submit" onclick="submitWorkout(event)">Submit</button>
       </form>
     </footer>    
-    <script>
-      function submitWorkout(event) {
-        event.preventDefault();
-        const workoutEntry = document.getElementById("workoutEntryId").value;
-        document.getElementById("workoutEntryId").value = "";
-        const request = new XMLHttpRequest();
-        request.open("POST", "/api/openai", true);
-        request.setRequestHeader("Content-Type", "application/json");
-        const workoutData = { workout: workoutEntry };
-        const jsonData = JSON.stringify(workoutData);
-        request.onreadystatechange = function() {
-          if (request.readyState === XMLHttpRequest.DONE && request.status === 200) {
-            const response = JSON.parse(request.responseText);
-            const listItem = document.createElement("li");
-            listItem.innerText = "Successfully Logged Workout";
-            workoutList.appendChild(listItem);
-            setTimeout(() => {
-              workoutList.removeChild(listItem);
-            }, 5000)
-          }
-        };
-        request.send(jsonData);
-      }
-    </script>
+    <script src="functions/submitWorkout.js"></script>
   </body>
 </html>

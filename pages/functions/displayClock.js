@@ -1,4 +1,5 @@
-module.exports = function displayClock() {
+function displayClock() {
+    const clock = document.getElementById("clock");
     const date = new Date();
     const dayOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][date.getDay()];
     const month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"][date.getMonth()];
@@ -10,3 +11,4 @@ module.exports = function displayClock() {
     const time = `${dayOfWeek}, ${month} ${day}, ${year} ${hours}:${minutes}:${seconds}`;
     clock.textContent = time;
 }
+setInterval(displayClock, 1000);
