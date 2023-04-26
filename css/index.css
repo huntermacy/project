@@ -12,6 +12,7 @@ body {
     line-height: 1.5;
     background-color: #f5f5f5;
     color: #333;
+    text-align: center;
 }
 
 /* Header Styles */
@@ -22,6 +23,11 @@ header {
     padding: 10px;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
 }
 
 h1 {
@@ -59,6 +65,7 @@ main {
     flex-grow: 1;
     flex-shrink: 0;
     flex-basis: 0;
+    padding-top: 75px;
 }
 
 .home-text {
@@ -115,57 +122,38 @@ button[type="submit"]:hover {
     background-color: #0062cc;
 }
 
-#workoutData {
-    text-align: left;
-}
-
-#workoutData h2 {
-    font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
-#workoutList {
-    list-style: none;
-    margin-top: 0;
-}
-
-#workoutList ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-#workoutList li {
+ul#workoutList {
+    list-style-type: none;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f5f5f5;
-    border-radius: 4px;
-    padding: 8px;
-    margin-bottom: 8px;
+    flex-wrap: wrap;
 }
 
-#workoutList li span {
+ul#workoutList li {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 25%;
+    margin-bottom: 10px;
+    padding: 10px;
+    margin-left: 25%;
+    width: calc(100% - 10px);
+}
+
+ul#workoutList li span {
+    display: block;
+    margin-bottom: 5px;
     font-weight: bold;
-    margin-right: 8px;
 }
 
-#workoutList li div {
-    display: flex;
-    align-items: center;
-}
-
-#workoutList li div img {
-    margin-right: 8px;
-    width: 24px;
-    height: 24px;
+ul#workoutList li span:first-child {
+    font-size: 1.2em;
 }
 
 #conceptParagraph {
     text-align: center;
     margin: 0 auto;
     max-width: 800px;
+}
+
+center {
+    text-align: center;
 }

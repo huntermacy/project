@@ -9,7 +9,7 @@ router.get('/', async (req, res) => {
     try {
         await client.connect();
         const db = client.db('test');
-        const workouts = await db.collection('workouts').find().toArray();
+        const workouts = await db.collection('workouts').find().sort({ date: -1 }).toArray();
         res.send(workouts);
     } catch (err) {
         res.status(500).json({ message: err.message });

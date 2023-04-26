@@ -11,8 +11,8 @@ function submitWorkout(event) {
     const listItem = document.createElement("li");
     listItem.innerText = "Successfully Logged Workout";
     workoutList.appendChild(listItem);
-    setTimeout(() => {
-        workoutList.removeChild(listItem);
-    }, 3000);
+    // setTimeout(() => {
+    //     workoutList.removeChild(listItem);
+    // }, 3000);
     request.send(jsonData);
 }

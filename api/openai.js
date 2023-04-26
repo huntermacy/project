@@ -10,8 +10,10 @@ const configuration = new Configuration({
 });
 const openai = new OpenAIApi(configuration);
 
+// API sending user prompt to ChatGPT for data extraction
 router.post("/", async (req, res) => {
     try {
+        // request body from user entry
         const workout = req.body.workout;
         const response = await openai.createCompletion({
             model: "text-davinci-003",
@@ -20,9 +22,15 @@ router.post("/", async (req, res) => {
             temperature: 0,
         });
         function generatePrompt(workout) {
-            return `Return JSON {"reps":, "sets":, "weight":, "type":} from ${workout} with type being the type of workout`;
+            return `Return JSON {"reps":, "sets":, "weight":, "type":} from ${workout}
+            Possible types include: squats, leg-press, deadlift, bench-press, incline-press, overhead-press, pull-ups, dips, push-ups, sit-ups
+            `;
         }
+        // parse data and put into JSON format
         workoutJSON = JSON.parse(response.data.choices[0].text);
+        // Add users entry to JSON
+        workoutJSON.userEntry = workout
+        //use the ./models/dbconnection function to insert to database
         dbConnect.insertWorkout(workoutJSON)
     } catch (error) {
         if (error.response) {
