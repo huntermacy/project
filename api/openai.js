@@ -1,6 +1,6 @@
 const dotenv = require('dotenv')
 
-const express = require("express");
+const express = require("express")
 const router = express.Router();
 const dbConnect = require('../models/db-connection')
 
