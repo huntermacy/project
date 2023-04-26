@@ -1,35 +1,35 @@
 # project
+
 My first repository
 
 Current State:
 Display screen working, statistics page working
 
-
 To Do List:
+
 1. DONE - Put timestamp into database upon entry
 2. DONE - Organize JavaScript files better - use separated functions
 3. Upgrade database document organization
-- Research, Design, Implement
-4. Upgrade UI/UX for Log page
-- Research, Design, Implement
+4. DONE - Upgrade UI/UX for Log page
 5. Upgrade UI/UX for Stats Page
-- Research, Design, Implement
 6. Create login mechanism
 7. Research steps to release
-
 
 Learn More JavaScript: https://codewithmosh.com/p/ultimate-javascript-series
 
 Questions to Study:
+
 1. What is the difference between synchronous and asynchronous code in JavaScript?
 
 2. How do you handle errors in JavaScript applications?
+
 - Try/Catch blocks
 - Error objects (error.name, error.message, error.stack)
 - Custom functions
 - React error boundaries
 
 3. Explain the concept of closures in JavaScript.
+
 - A closure is a feature in JavaScript that allows functions to access variables that are declared outside of their own scope.
 - Closures are useful for a variety of tasks, inlcuding creating private variables and functions, implementing data hiding, and managing state in asynchronous operations. By using closures, we can write more modular and maintainable code in JavaScript.
 
@@ -48,9 +48,9 @@ Questions to Study:
 14. How do you use Git for version control in a JavaScript project?
 15. How do you deploy a JavaScript application to a production environment?
 
-
 Set 2:
-1. What is the difference between == and === in JavaScript? 
+
+1. What is the difference between == and === in JavaScript?
 2. How do you create a new object in JavaScript, and what are some ways to add properties to an object?
 3. How do you handle authentication in a web application using JavaScript?
 4. What are some common performance bottlenecks in JavaScript applications, and how do you optimize for them?
