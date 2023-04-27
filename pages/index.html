@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  lang="en">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,13 +9,13 @@
   </head>
   <body>
     <header>
-      <h1>Workout Log</h1>
+      <h1>Yournal</h1>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/log">Log</a></li>
           <li><a href="/stats">Stats</a></li>
-          <li><a href="/concept">Concept</a></li>
+          <li><a href="/feedback">Feedback</a></li>
         </ul>
       </nav>
     </header>
@@ -30,8 +30,11 @@
         <input type="text" id="workoutEntryId" placeholder="Enter Workout..." />
         <button type="submit" onclick="submitWorkout(event)">Submit</button>
       </form>
-      <p>Available Workouts:<br>Squats, Leg-press, Deadlift, Bench-press, Incline-press, Overhead-press, Pull-ups, Dips, Push-ups, Sit-ups</p>
-    </footer>    
+      <p>
+        Available Workouts:<br />Squats, Leg-press, Deadlift, Bench-press,
+        Incline-press, Overhead-press, Pull-ups, Dips, Push-ups, Sit-ups
+      </p>
+    </footer>
     <script src="functions/submitWorkout.js"></script>
   </body>
 </html>

@@ -2,14 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
-    <title>Statistics Page</title>
+    <title>Journal</title>
   </head>
   <body>
     <header>
-      <h1>Your Log</h1>
+      <h1>Your Feedback</h1>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
@@ -20,8 +19,16 @@
       </nav>
     </header>
     <main>
-      <ul id="workoutList"></ul>
+      <h2>Submit Feedback</h2>
     </main>
-    <script src="./functions/displayWorkout.js"></script>
+    <footer>
+      <ul id="feedbackConfirm"></ul>
+      <form>
+        <input type="text" id="submitFeedback" placeholder="Enter Feedback" />
+        <button type="submit" onclick="insertFeedback(event)">Submit</button>
+      </form>
+      <p>Please submit feedback to help the app be better!</p>
+    </footer>
+    <script src="./functions/submitFeedback.js"></script>
   </body>
 </html>

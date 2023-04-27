@@ -13,11 +13,14 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 
-const databaseRouter = require('./api/workout')
-app.use('/workout', databaseRouter)
+const workout = require('./api/workout')
+app.use('/workout', workout)
 
 const openAi = require("./api/openai")
 app.use("/api/openai", openAi)
+
+const feedback = require("./api/feedback")
+app.use("/api/feedback", feedback)
 
 //Serve pages to the client
 app.get("/", (req, res) => {
@@ -29,8 +32,8 @@ app.get("/stats", (req, res) => {
 app.get("/log", (req, res) => {
     res.sendFile(__dirname + "/pages/log.html");
 })
-app.get("/concept", (req, res) => {
-    res.sendFile(__dirname + "/pages/concept.html");
+app.get("/feedback", (req, res) => {
+    res.sendFile(__dirname + "/pages/feedback.html");
 })
 
 

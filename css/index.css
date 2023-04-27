@@ -157,3 +157,25 @@ ul#workoutList li span:first-child {
 center {
     text-align: center;
 }
+ul#feedbackConfirm {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul#feedbackConfirm li {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+ul#feedbackConfirm li span {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+ul#feedbackConfirm li span:first-child {
+    font-size: 1.2em;
+}

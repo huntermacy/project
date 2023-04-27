@@ -31,8 +31,26 @@ async function insertWorkout(workoutJSON) {
     }
 }
 
+// Insert feedback into database
+async function submitFeedback(feedback) {
+    try {
+        const currentDate = new Date();
+        feedback.date = currentDate;
+        await client.connect();
+        const db = client.db("test");
+        const collection = db.collection("feedback");
+        await collection.insertOne(feedback);
+        console.log("Feedback inserted into collection!");
+    } catch (err) {
+        console.error(err);
+    } finally {
+        await client.close();
+    }
+}
+
 module.exports = {
     client,
     connect,
     insertWorkout,
+    submitFeedback,
 };

@@ -1,61 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
     <title>Statistics Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-      <h1>Workout Log</h1>
+      <h1>Your Stats</h1>
       <nav>
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/log">Log</a></li>
           <li><a href="/stats">Stats</a></li>
-          <li><a href="/concept">Concept</a></li>
+          <li><a href="/feedback">Feedback</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h1 class="home-text">My Stats</h1>
       <ul>
-        <li>
-          Total Workouts: <span id="totalWorkouts"></span>
-        </li>
-        <li>
-          Total Sets: <span id="totalSets"></span>
-        </li>
-        <li>
-          Total Reps: <span id="totalReps"></span>
-        </li>
-        <li>
-          Total Weight: <span id="totalWeight"></span>
-        </li>
-        <li>
-          Average Sets: <span id="avgSets"></span>
-        </li>
-        <li>
-          Average Reps: <span id="avgReps"></span>
-        </li>
-        <li>
-          Average Weight: <span id="avgWeight"></span>
-        </li>
-        <li>
-          Maximum Weight: <span id="maxWeight"></span>
-        </li>
-        <li>
-          Minimum Weight: <span id="minWeight"></span>
-        </li>
+        <li>Total Workouts: <span id="totalWorkouts"></span></li>
+        <li>Total Sets: <span id="totalSets"></span></li>
+        <li>Total Reps: <span id="totalReps"></span></li>
+        <li>Total Weight: <span id="totalWeight"></span></li>
+        <li>Average Sets: <span id="avgSets"></span></li>
+        <li>Average Reps: <span id="avgReps"></span></li>
+        <li>Average Weight: <span id="avgWeight"></span></li>
+        <li>Maximum Weight: <span id="maxWeight"></span></li>
+        <li>Minimum Weight: <span id="minWeight"></span></li>
       </ul>
     </main>
     <script>
       function displayStats() {
         const request = new XMLHttpRequest();
         request.open("GET", "/workout", true);
-        request.onreadystatechange = function() {
+        request.onreadystatechange = function () {
           if (request.readyState === 4 && request.status === 200) {
             const response = JSON.parse(request.responseText);
             const totalWorkouts = document.getElementById("totalWorkouts");
@@ -70,7 +51,7 @@
             let weightCount = 0;
             let maxWeight = 0;
             let minWeight = Infinity;
-            response.forEach(function(workout) {
+            response.forEach(function (workout) {
               setsCount += workout.sets;
               repsCount += workout.reps;
               weightCount += workout.weight;
