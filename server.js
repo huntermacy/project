@@ -16,6 +16,9 @@ app.use(express.urlencoded({ extended: false }));
 const workout = require('./api/workout')
 app.use('/workout', workout)
 
+const workoutType = require('./api/workout')
+app.use('/type', workoutType)
+
 const openAi = require("./api/openai")
 app.use("/api/openai", openAi)
 
@@ -24,7 +27,7 @@ app.use("/api/feedback", feedback)
 
 //Serve pages to the client
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/pages/index.html");
+    res.sendFile(__dirname + "/pages/home.html");
 })
 app.get("/stats", (req, res) => {
     res.sendFile(__dirname + "/pages/stats.html");

@@ -12,6 +12,12 @@ To Do List:
 3. DONE - Upgrade database document organization
 4. DONE - Upgrade UI/UX for Log page
 5. IN PROGRESS - Upgrade UI/UX for Stats Page
+
+- Create Shell
+- Set up for hookup
+- Create APIs
+- Hookup
+
 6. Create login mechanism
 7. Update database to enter user information
 8. Update UI for user information only

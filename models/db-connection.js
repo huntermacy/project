@@ -20,8 +20,8 @@ async function insertWorkout(workoutJSON) {
         const currentDate = new Date();
         workoutJSON.date = currentDate;
         await client.connect();
-        const db = client.db("test");
-        const collection = db.collection("workouts");
+        const db = client.db("excersize");
+        const collection = db.collection("strength-training");
         await collection.insertOne(workoutJSON);
         console.log("Workout inserted into collection!");
     } catch (err) {
@@ -36,8 +36,9 @@ async function submitFeedback(feedback) {
     try {
         const currentDate = new Date();
         feedback.date = currentDate;
+        feedback.type = "feedback";
         await client.connect();
-        const db = client.db("test");
+        const db = client.db("app");
         const collection = db.collection("feedback");
         await collection.insertOne(feedback);
         console.log("Feedback inserted into collection!");
