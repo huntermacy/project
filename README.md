@@ -9,7 +9,7 @@ To Do List:
 
 1. DONE - Put timestamp into database upon entry
 2. DONE - Organize JavaScript files better - use separated functions
-3. Upgrade database document organization
+3. DONE - Upgrade database document organization
 4. DONE - Upgrade UI/UX for Log page
 5. Upgrade UI/UX for Stats Page
 6. Create login mechanism
