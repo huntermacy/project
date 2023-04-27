@@ -11,7 +11,7 @@ To Do List:
 2. DONE - Organize JavaScript files better - use separated functions
 3. DONE - Upgrade database document organization
 4. DONE - Upgrade UI/UX for Log page
-5. Upgrade UI/UX for Stats Page
+5. IN PROGRESS - Upgrade UI/UX for Stats Page
 6. Create login mechanism
 7. Research steps to release
 
