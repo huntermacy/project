@@ -13,7 +13,11 @@ To Do List:
 4. DONE - Upgrade UI/UX for Log page
 5. IN PROGRESS - Upgrade UI/UX for Stats Page
 6. Create login mechanism
-7. Research steps to release
+7. Update database to enter user information
+8. Update UI for user information only
+9. Hire UI designer to create figma screens for iPhone 12 app
+10. Implement designs and convert webapp to iOS application
+11. Research steps to release
 
 Learn More JavaScript: https://codewithmosh.com/p/ultimate-javascript-series
 
