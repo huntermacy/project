@@ -11,19 +11,21 @@ To Do List:
 2. DONE - Organize JavaScript files better - use separated functions
 3. DONE - Upgrade database document organization
 4. DONE - Upgrade UI/UX for Log page
-5. IN PROGRESS - Upgrade UI/UX for Stats Page
-
-- Create Shell
-- Set up for hookup
-- Create APIs
-- Hookup
-
-6. Create login mechanism
-7. Update database to enter user information
-8. Update UI for user information only
-9. Hire UI designer to create figma screens for iPhone 12 app
-10. Implement designs and convert webapp to iOS application
-11. Research steps to release
+5. DONE - Upgrade UI/UX for Stats Page
+6. Prep ideal database set up (research workout statistics)
+7. Research OpenAI model training
+8. Train base model
+9. Test
+10. Create login mechanism
+11. Update database to enter user information
+12. Update UI for user information only
+13. Reorganize codebase (research / implement)
+14. Hire UI designer to create figma screens for responsive iPhone 10 app
+15. Research how to build a mobile app from HTML and JS
+16. Implement designs and convert webapp to iOS application
+17. Research steps to release
+18. Release
+19. Get feedback - Is there product market fit?
 
 Learn More JavaScript: https://codewithmosh.com/p/ultimate-javascript-series
 
