@@ -20,23 +20,22 @@ router.get('/', async (req, res) => {
 
 router.get('/type', async (req, res) => {
     try {
-      // Connect to the MongoDB database
       await client.connect();
       const db = client.db('excersize');
   
-      // Query the database for workout types
-      const workouts = await db.collection('strength-training').find().sort({ type: 1 }).toArray();
-      const workoutTypes = workouts.map(workout => workout.type);
+      // Query the database for unique workout types
+      const types = await db.collection('strength-training').distinct('type');
   
       // Close the database connection
-      client.close();
+      await client.close();
   
-      // Send the workout types as a response
-      res.send(workoutTypes);
+      // Send the unique workout types as a response
+      res.send(types);
     } catch (err) {
       console.error(err);
       res.status(500).send('Internal server error');
     }
   });
+  
 
 module.exports = router;

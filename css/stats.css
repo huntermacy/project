@@ -75,3 +75,40 @@ main {
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+
+
+/* Set the border style for each list item */
+#stats li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Set the font size and weight for the list items */
+  #stats li span {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  /* Align the list items horizontally */
+  #stats ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set the width of each list item */
+  #stats li {
+    margin-left: 0%;
+    width: 200px;
+  }
+  
+  /* Add a background color on hover */
+  #stats li:hover {
+    background-color: #f2f2f2;
+  }
+  
