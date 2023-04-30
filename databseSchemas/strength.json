@@ -1,0 +1,858 @@
+{
+  "_id": "0912309ah1219n1n301",
+  "strength": [
+    {
+      "category": "chest",
+      "rankings": [
+        {
+          "exercise": ["bar-dip"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["bench-press"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["cable-chest-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["close-grip-bench-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["close-grip-feet-up-bench-press"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["decline-bench-press"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["dumbbell-chest-fly"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbell-chest-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbell-decline-chest-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbell-floor-press"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["dumbbell-pullover"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["feet-up-bench-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["floor-press"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["incline-bench-press"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["incline-dumbbell-press"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["incline-push-up"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["kneeling-incline-push-up"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["kneeling-push-up"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["machine-chest-fly"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["machine-chest-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["pec-deck"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["push-up"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["push-up-against-wall"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["resistance-chest-fly"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["standing-cable-chest-fly"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["standing-resistance-chest-fly"],
+          "ranking": 6
+        }
+      ]
+    },
+    {
+      "category": "shoulders",
+      "rankings": [
+        {
+          "exercise": ["barbell-shoulder-press"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["dumbbell-shoulder-press"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["cable-lateral-raise"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbell-lateral-raise"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["face-pull"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["behind-the-neck-press"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["barbell-upright-row"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["dumbbell-rear-delt-row"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["lateral-raise", "machine-lateral-raise"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["overhead-press"],
+          "ranking": 6
+        },
+        {
+          "exercise": [
+            "seated-dumbbell-shoulder-press",
+            "dumbbell-shoulder-press",
+            "shoulder-press"
+          ],
+          "ranking": 6
+        },
+        {
+          "exercise": [
+            "seated-barbell-overhead-press",
+            "barbell-overhead-press"
+          ],
+          "ranking": 6
+        },
+        {
+          "exercise": ["band-pull-apart"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["dumbbell-front-raise"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["plate-front-raise"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["reverse-dumbbell-fly"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["band-external-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["band-internal-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["barbell-front-raise"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["barbell-rear-delt-row"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["cable-rear-delt-row"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["dumbbell-horizontal-external-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["dumbbell-horizontal-internal-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["front-hold"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["lying-dumbbell-external-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["lying-dumbbell-internal-shoulder-rotation"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["monkey-row"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["power-jerk"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["push-press"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["snatch-grip-behind-neck-press"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["squat-jerk"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["split-jerk"],
+          "ranking": 4
+        }
+      ]
+    },
+    {
+      "category": "biceps",
+      "rankings": [
+        {
+          "exercise": ["barbell-curl"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["barbell-preacher-curl"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["bodyweight-curl"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["cable-curl-with-bar"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["cable-curl-with-rope"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["concentration-curl"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbel-curl", "curl"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["dumbbell-preacher-curl"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["hammer-curl"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["incline-dumbbell-curl"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["machine-bicep-curl"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["spider-curl"],
+          "ranking": 3
+        }
+      ]
+    },
+    {
+      "category": "triceps",
+      "rankings": [
+        {
+          "exercise": ["dumbbell-lying-tricep-extension"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["dumbbell-standing-tricep-extension"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["overhead-cable-tricep-extension"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["tricep-pushdown", "tricep-pushdown-with-rope"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["barbell-lying-tricep-extension"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["barbell-standing-tricep-extension"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["bench-dip"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["tricep-pushdown", "tricep-pushdown-with-bar"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["close-grip-push-up"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["tricep-bodyweight-extension"],
+          "ranking": 5
+        }
+      ]
+    },
+    {
+      "category": "legs",
+      "rankings": [
+        {
+          "exercise": ["squat"],
+          "ranking": 10
+        },
+        {
+          "exercise": ["barbell-walking-lunge", "barbell-lunge"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["bulgarian-split-squat"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["front-squat"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["goblet-squat"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["dumbbell-squat"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["hack-squat-machine", "hack-squat"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["leg-press"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["box-squat"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["pause-squat"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["belt-squat"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["step-up"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["romanian-deadlift"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["smith-machine-squat"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["barbell-hack-squat"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["landmine-squat"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["chair-squat"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["shallow-bodyweight-lunge"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["bodyweight-squat"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["seated-leg-curl"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["leg-extension"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["hip-adduction-machine"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["lying-leg-curl"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["side-lunge"],
+          "ranking": 4
+        }
+      ]
+    },
+    {
+      "category": "back",
+      "rankings": [
+        {
+          "exercise": ["deadlift"],
+          "ranking": 10
+        },
+        {
+          "exercise": ["pull-up"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["barbell-row"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["chin-up"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["tbar-row"],
+          "ranking": 8
+        },
+        {
+          "exercise": [
+            "lat-pulldown",
+            "lat-pulldown-with-pronated-grip",
+            "lat-pulldown-with-supinated-grip"
+          ],
+          "ranking": 8
+        },
+        {
+          "exercise": ["inverted-row"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["dumbbell-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["cable-close-grip-seated-row", "seated-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["cable-wide-grip-seated-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["pendlay-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["seal-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["one-handed-cable-row"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["block-snatch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["power-clean"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["power-snatch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["clean"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["clean-and-jerk"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["snatch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["hang-clean"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["hang-power-clean"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["hang-snatch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["hang-power-snatch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["barbell-shrug"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["dumbbell-shrug"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["rack-pull"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["stiff-legged-deadlift"],
+          "ranking": 6
+        },
+        {
+          "exercise": [
+            "trap-bar-deadlift",
+            "trap-bar-deadlift-with-high-handles",
+            "trap-bar-deadlift-with-low-handles"
+          ],
+          "ranking": 6
+        },
+        {
+          "exercise": ["good-morning"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["deficit-deadlift"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["pause-deadlift"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["sumo-deadlift"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["one-handed-lat-pulldown"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["straight-arm-lat-pulldown"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["floor-back-extension"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["back-extension"],
+          "ranking": 3
+        },
+        {
+          "exercise": ["seated-machine-row"],
+          "ranking": 3
+        },
+        {
+          "exercise": ["kettlebell-swing"],
+          "ranking": 2
+        }
+      ]
+    },
+    {
+      "category": "glutes",
+      "rankings": [
+        {
+          "exercise": [
+            "hip-thrust-machine",
+            "hip-thrust",
+            "hip-thrust-with-band"
+          ],
+          "ranking": 10
+        },
+        {
+          "exercise": ["cable-pull-through"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["one-legged-glute-bridge"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["dumbbell-romanian-deadlift"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["step-up"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["glute-bridge"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["one-legged-hip-thrust"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["machine-glute-kickbacks"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["lateral-walk-with-band"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["banded-side-kicks"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["hip-abduction-against-band"],
+          "ranking": 5
+        },
+        {
+          "exercise": [
+            "standing-glute-kickback",
+            "standing-glute-kickback-in-machine"
+          ],
+          "ranking": 4
+        },
+        {
+          "exercise": ["clamshells"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["fire-hydrant"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["frog-pumps"],
+          "ranking": 3
+        },
+        {
+          "exercise": ["dumbbell-frog-pumps"],
+          "ranking": 3
+        },
+        {
+          "exercise": ["single-leg-romanian-deadlift"],
+          "ranking": 2
+        }
+      ]
+    },
+    {
+      "category": "abs",
+      "rankings": [
+        {
+          "exercise": ["hanging-leg-raise"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["cable-crunch"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["kneeling-ab-wheel-roll-out", "roll-outs"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["plank"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["side-plank"],
+          "ranking": 8
+        },
+        {
+          "exercise": [
+            "horizontal-wood-chop-with-band",
+            "horizontal-wood-chop"
+          ],
+          "ranking": 7
+        },
+        {
+          "exercise": ["oblique-crunch"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["crunch"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["dead-bug"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["hanging-knee-raise"],
+          "ranking": 6
+        },
+        {
+          "exercise": [
+            "high-tolow-wood-chop",
+            "high-tolow-wood-chop-with-band"
+          ],
+          "ranking": 6
+        },
+        {
+          "exercise": ["kneeling-plank"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["lying-leg-raise"],
+          "ranking": 6
+        },
+        {
+          "exercise": [
+            "lying-windshield-wiper",
+            "lying-windshield-wiper-with-bent-knees"
+          ],
+          "ranking": 6
+        },
+        {
+          "exercise": ["machine-crunch"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["mountain-climbers"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["oblique-sit-up"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["sit-up"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["hanging-sit-up"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["bycicles"],
+          "ranking": 8
+        }
+      ]
+    },
+    {
+      "category": "calves",
+      "rankings": [
+        {
+          "exercise": ["eccentric-heel-drop", "heel-drop"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["heel-raise"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["seated-calf-raise"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["standing-calf-raise", "calf-raise"],
+          "ranking": 9
+        }
+      ]
+    },
+    {
+      "category": "forearms",
+      "rankings": [
+        {
+          "exercise": ["farmers-walk"],
+          "ranking": 9
+        },
+        {
+          "exercise": ["fat-bar-deadlift"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["plate-pinch"],
+          "ranking": 8
+        },
+        {
+          "exercise": ["bar-hang"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["dumbbell-wrist-curl"],
+          "ranking": 7
+        },
+        {
+          "exercise": ["barbell-wrist-curl"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["plate-wrist-curl"],
+          "ranking": 6
+        },
+        {
+          "exercise": ["gripper"],
+          "ranking": 5
+        },
+        {
+          "exercise": ["barbell-curl-behind-back"],
+          "ranking": 4
+        },
+        {
+          "exercise": ["towel-pull-up"],
+          "ranking": 4
+        }
+      ]
+    }
+  ]
+}

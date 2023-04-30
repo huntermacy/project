@@ -40,7 +40,7 @@ Questions to Study:
 - Custom functions
 - React error boundaries
 
-3. Explain the concept of closures in JavaScript.
+3. Explain the concept of closures in JavaScript.npm
 
 - A closure is a feature in JavaScript that allows functions to access variables that are declared outside of their own scope.
 - Closures are useful for a variety of tasks, inlcuding creating private variables and functions, implementing data hiding, and managing state in asynchronous operations. By using closures, we can write more modular and maintainable code in JavaScript.
