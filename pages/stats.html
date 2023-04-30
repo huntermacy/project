@@ -4,20 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="stats.css" />
-    <title>Statistics Page</title>
+    <title>Statistics</title>
   </head>
   <body>
     <header>
       <h1>Your Stats</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/log">Log</a></li>
-          <li><a href="/stats">Stats</a></li>
-          <li><a href="/feedback">Feedback</a></li>
-        </ul>
-      </nav>
+      <select id="nav-dropdown">
+        <option value="/stats">Stats</option>
+        <option value="/">Home</option>
+        <option value="/log">Log</option>
+        <option value="/feedback">Feedback</option>
+      </select>
     </header>
     <main>
       <h1>Weekly Report</h1>
@@ -32,5 +31,6 @@
       </div>
     </main>
     <script src="./functions/displayStats.js"></script>
+    <script src="./functions/navDropdown.js"></script>
   </body>
 </html>

@@ -11,18 +11,17 @@
   <body>
     <header>
       <h1>Your Log</h1>
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/log">Log</a></li>
-          <li><a href="/stats">Stats</a></li>
-          <li><a href="/feedback">Feedback</a></li>
-        </ul>
-      </nav>
+      <select id="nav-dropdown">
+        <option value="/log">Log</option>
+        <option value="/">Home</option>
+        <option value="/stats">Stats</option>
+        <option value="/feedback">Feedback</option>
+      </select>
     </header>
     <main>
       <ul id="workoutList"></ul>
     </main>
     <script src="./functions/displayWorkout.js"></script>
+    <script src="./functions/navDropdown.js"></script>
   </body>
 </html>

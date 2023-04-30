@@ -37,13 +37,17 @@ h1 {
     letter-spacing: 2px;
 }
 
+nav {
+    display: none;
+}
+
 nav ul {
     display: flex;
     list-style: none;
 }
 
 nav ul li {
-    margin-right: 40px;
+    margin-right: 10px;
 }
 
 nav ul li a {
@@ -75,3 +79,19 @@ main {
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+
+#nav-dropdown {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px;
+    text-align-last: center;
+  }
+  
+  #nav-dropdown option {
+    text-align: right;
+  }
