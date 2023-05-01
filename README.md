@@ -12,20 +12,21 @@ To Do List:
 3. DONE - Upgrade database document organization
 4. DONE - Upgrade UI/UX for Log page
 5. DONE - Upgrade UI/UX for Stats Page
-6. In Progress - Prep ideal database set up (research workout statistics)
+6. DONE - Prep ideal database set up (research workout statistics)
 7. Research OpenAI model training
-8. Train base model
-9. Test
-10. Create login mechanism
-11. Update database to enter user information
-12. Update UI for user information only
-13. Reorganize codebase (research / implement)
-14. Hire UI designer to create figma screens for responsive iPhone app
-15. Research how to build a mobile app from HTML and JS
-16. Implement designs and convert webapp to iOS application
-17. Research steps to release
-18. Release
-19. Get feedback - Do people use the application?
+8. Get training materials together
+9. Train base model
+10. Test
+11. Create login mechanism
+12. Update database to enter user information
+13. Update UI for user information only
+14. Reorganize codebase (research / implement)
+15. Hire UI designer to create figma screens for responsive iPhone app
+16. Research how to build a mobile app from HTML and JS
+17. Implement designs and convert webapp to iOS application
+18. Research steps to release
+19. Release
+20. Get feedback - Do people use the application?
 
 Learn More JavaScript: https://codewithmosh.com/p/ultimate-javascript-series
 

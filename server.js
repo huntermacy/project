@@ -5,9 +5,9 @@ const app = express();
 //Environment Variables
 const PORT = process.env.PORT;
 
+app.use(express.static('pages'));
 app.use(express.static('public'));
 app.use(express.static('functions'));
-app.use(express.static('pages'));
 app.use(express.static('css'));
 app.use(express.json());
 
