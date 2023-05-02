@@ -6,107 +6,133 @@
       "rankings": [
         {
           "exercise": ["bar-dip"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BAR"
         },
         {
           "exercise": ["bench-press"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["cable-chest-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["close-grip-bench-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["close-grip-feet-up-bench-press"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["decline-bench-press"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbell-chest-fly"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-chest-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-decline-chest-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-floor-press"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-pullover"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["feet-up-bench-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["floor-press"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["incline-bench-press"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["incline-dumbbell-press"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["incline-push-up"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["kneeling-incline-push-up"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["kneeling-push-up"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["machine-chest-fly"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["machine-chest-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["pec-deck"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["push-up"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["push-up-against-wall"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["resistance-chest-fly"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["standing-cable-chest-fly"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["standing-resistance-chest-fly"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         }
       ]
     },
@@ -115,138 +141,169 @@
       "rankings": [
         {
           "exercise": ["barbell-shoulder-press"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbell-shoulder-press"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["cable-lateral-raise"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["dumbbell-lateral-raise"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["face-pull"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["behind-the-neck-press"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-upright-row"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbell-rear-delt-row"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["lateral-raise", "machine-lateral-raise"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         },
         {
-          "exercise": ["overhead-press"],
-          "ranking": 6
+          "exercise": ["overhead-press", "shoulder-press"],
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": [
             "seated-dumbbell-shoulder-press",
-            "dumbbell-shoulder-press",
-            "shoulder-press"
+            "dumbbell-shoulder-press"
           ],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": [
             "seated-barbell-overhead-press",
             "barbell-overhead-press"
           ],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["band-pull-apart"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAND"
         },
         {
           "exercise": ["dumbbell-front-raise"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["plate-front-raise"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["reverse-dumbbell-fly"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["band-external-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAND"
         },
         {
           "exercise": ["band-internal-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAND"
         },
         {
           "exercise": ["barbell-front-raise"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-rear-delt-row"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["cable-rear-delt-row"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["dumbbell-horizontal-external-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-horizontal-internal-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["front-hold"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["lying-dumbbell-external-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["lying-dumbbell-internal-shoulder-rotation"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["monkey-row"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["power-jerk"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["push-press"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["snatch-grip-behind-neck-press"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["squat-jerk"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["split-jerk"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         }
       ]
     },
@@ -255,51 +312,63 @@
       "rankings": [
         {
           "exercise": ["barbell-curl"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-preacher-curl"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["bodyweight-curl"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["cable-curl-with-bar"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["cable-curl-with-rope"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["concentration-curl"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbel-curl", "curl"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-preacher-curl"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["hammer-curl"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["incline-dumbbell-curl"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["machine-bicep-curl"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["spider-curl"],
-          "ranking": 3
+          "ranking": 6,
+          "weightType": "DUMBBELL"
         }
       ]
     },
@@ -308,43 +377,53 @@
       "rankings": [
         {
           "exercise": ["dumbbell-lying-tricep-extension"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["dumbbell-standing-tricep-extension"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["overhead-cable-tricep-extension"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["tricep-pushdown", "tricep-pushdown-with-rope"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["barbell-lying-tricep-extension"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-standing-tricep-extension"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["bench-dip"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["tricep-pushdown", "tricep-pushdown-with-bar"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["close-grip-push-up"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["tricep-bodyweight-extension"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BODYWEIGHT"
         }
       ]
     },
@@ -353,11 +432,13 @@
       "rankings": [
         {
           "exercise": ["squat"],
-          "ranking": 10
+          "ranking": 10,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-walking-lunge", "barbell-lunge"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BAR"
         },
         {
           "exercise": ["bulgarian-split-squat"],
@@ -365,11 +446,13 @@
         },
         {
           "exercise": ["front-squat"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["goblet-squat"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbell-squat"],
@@ -377,75 +460,93 @@
         },
         {
           "exercise": ["hack-squat-machine", "hack-squat"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["leg-press"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["box-squat"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["pause-squat"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["belt-squat"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["step-up"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["romanian-deadlift"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["smith-machine-squat"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-hack-squat"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["landmine-squat"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["chair-squat"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["shallow-bodyweight-lunge"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["bodyweight-squat"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["seated-leg-curl"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["leg-extension"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["hip-adduction-machine"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["lying-leg-curl"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["side-lunge"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "DUMBBELL"
         }
       ]
     },
@@ -454,23 +555,28 @@
       "rankings": [
         {
           "exercise": ["deadlift"],
-          "ranking": 10
+          "ranking": 10,
+          "weightType": "BAR"
         },
         {
           "exercise": ["pull-up"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["barbell-row"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["chin-up"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["tbar-row"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": [
@@ -478,91 +584,113 @@
             "lat-pulldown-with-pronated-grip",
             "lat-pulldown-with-supinated-grip"
           ],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["inverted-row"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["dumbbell-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["cable-close-grip-seated-row", "seated-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["cable-wide-grip-seated-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["pendlay-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["seal-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["one-handed-cable-row"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["block-snatch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["power-clean"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["power-snatch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["clean"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["clean-and-jerk"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["snatch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["hang-clean"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["hang-power-clean"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["hang-snatch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["hang-power-snatch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-shrug"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["dumbbell-shrug"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["rack-pull"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["stiff-legged-deadlift"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": [
@@ -570,47 +698,58 @@
             "trap-bar-deadlift-with-high-handles",
             "trap-bar-deadlift-with-low-handles"
           ],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["good-morning"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["deficit-deadlift"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["pause-deadlift"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["sumo-deadlift"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["one-handed-lat-pulldown"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["straight-arm-lat-pulldown"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["floor-back-extension"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["back-extension"],
-          "ranking": 3
+          "ranking": 3,
+          "weightType": "BAR"
         },
         {
           "exercise": ["seated-machine-row"],
-          "ranking": 3
+          "ranking": 3,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["kettlebell-swing"],
-          "ranking": 2
+          "ranking": 2,
+          "weightType": "BAR"
         }
       ]
     },
@@ -623,74 +762,91 @@
             "hip-thrust",
             "hip-thrust-with-band"
           ],
-          "ranking": 10
+          "ranking": 10,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["cable-pull-through"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["one-legged-glute-bridge"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["dumbbell-romanian-deadlift"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["step-up"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["glute-bridge"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["one-legged-hip-thrust"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["machine-glute-kickbacks"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["lateral-walk-with-band"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["banded-side-kicks"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAND"
         },
         {
           "exercise": ["hip-abduction-against-band"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAND"
         },
         {
           "exercise": [
             "standing-glute-kickback",
             "standing-glute-kickback-in-machine"
           ],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["clamshells"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["fire-hydrant"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["frog-pumps"],
-          "ranking": 3
+          "ranking": 3,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["dumbbell-frog-pumps"],
-          "ranking": 3
+          "ranking": 3,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["single-leg-romanian-deadlift"],
-          "ranking": 2
+          "ranking": 2,
+          "weightType": "BAR"
         }
       ]
     },
@@ -699,92 +855,112 @@
       "rankings": [
         {
           "exercise": ["hanging-leg-raise"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["cable-crunch"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "CABLE"
         },
         {
           "exercise": ["kneeling-ab-wheel-roll-out", "roll-outs"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["plank"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["side-plank"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": [
             "horizontal-wood-chop-with-band",
             "horizontal-wood-chop"
           ],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["oblique-crunch"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["crunch"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["dead-bug"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["hanging-knee-raise"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": [
             "high-tolow-wood-chop",
             "high-tolow-wood-chop-with-band"
           ],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["kneeling-plank"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["lying-leg-raise"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": [
             "lying-windshield-wiper",
             "lying-windshield-wiper-with-bent-knees"
           ],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["machine-crunch"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["mountain-climbers"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["oblique-sit-up"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["sit-up"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["hanging-sit-up"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["bycicles"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BODYWEIGHT"
         }
       ]
     },
@@ -793,19 +969,23 @@
       "rankings": [
         {
           "exercise": ["eccentric-heel-drop", "heel-drop"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["heel-raise"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["seated-calf-raise"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["standing-calf-raise", "calf-raise"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "BODYWEIGHT"
         }
       ]
     },
@@ -814,43 +994,53 @@
       "rankings": [
         {
           "exercise": ["farmers-walk"],
-          "ranking": 9
+          "ranking": 9,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["fat-bar-deadlift"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["plate-pinch"],
-          "ranking": 8
+          "ranking": 8,
+          "weightType": "BAR"
         },
         {
           "exercise": ["bar-hang"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "BODYWEIGHT"
         },
         {
           "exercise": ["dumbbell-wrist-curl"],
-          "ranking": 7
+          "ranking": 7,
+          "weightType": "DUMBBELL"
         },
         {
           "exercise": ["barbell-wrist-curl"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["plate-wrist-curl"],
-          "ranking": 6
+          "ranking": 6,
+          "weightType": "BAR"
         },
         {
           "exercise": ["gripper"],
-          "ranking": 5
+          "ranking": 5,
+          "weightType": "BAR"
         },
         {
           "exercise": ["barbell-curl-behind-back"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         },
         {
           "exercise": ["towel-pull-up"],
-          "ranking": 4
+          "ranking": 4,
+          "weightType": "BAR"
         }
       ]
     }

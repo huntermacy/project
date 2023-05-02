@@ -1,0 +1,9 @@
+{
+  "userId": 1000000000000,
+  "type": "strength",
+  "subtype": "bench-press",
+  "reps": 10,
+  "sets": 3,
+  "weight": 135,
+  "userEntry": "Benched 135 for 10 for 3 sets"
+}
