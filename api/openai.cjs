@@ -2,7 +2,7 @@ const dotenv = require('dotenv')
 
 const express = require("express")
 const router = express.Router();
-const dbConnect = require('../models/db-connection')
+//const dbConnect = require('../models/db-connection.cjs')
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
@@ -16,22 +16,21 @@ router.post("/", async (req, res) => {
         // request body from user entry
         const workout = req.body.workout;
         const response = await openai.createCompletion({
-            model: "text-davinci-003",
-            prompt: generatePrompt(workout),
+            model: "davinci:ft-personal-2023-05-04-04-03-27",
+            prompt: `${workout}`,
             max_tokens: 100,
             temperature: 0,
         });
         function generatePrompt(workout) {
-            return `Return JSON {"reps":, "sets":, "weight":, "type":} from ${workout}
-            Possible types include: squats, leg-press, deadlift, bench-press, incline-press, overhead-press, pull-ups, dips, push-ups, sit-ups
-            `;
+            return ;
         }
         // parse data and put into JSON format
+        console.log(response.data.choices[0].text)
         workoutJSON = JSON.parse(response.data.choices[0].text);
         // Add users entry to JSON
         workoutJSON.userEntry = workout
         //use the ./models/dbconnection function to insert to database
-        dbConnect.insertWorkout(workoutJSON)
+        //dbConnect.insertWorkout(workoutJSON)
     } catch (error) {
         if (error.response) {
             console.error(error.response.status, error.response.data);

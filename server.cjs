@@ -13,16 +13,16 @@ app.use(express.json());
 
 app.use(express.urlencoded({ extended: false }));
 
-const workout = require('./api/workout')
+const workout = require('./api/workout.cjs')
 app.use('/workout', workout)
 
-const workoutType = require('./api/workout')
+const workoutType = require('./api/workout.cjs')
 app.use('/type', workoutType)
 
-const openAi = require("./api/openai")
+const openAi = require("./api/openai.cjs")
 app.use("/api/openai", openAi)
 
-const feedback = require("./api/feedback")
+const feedback = require("./api/feedback.cjs")
 app.use("/api/feedback", feedback)
 
 //Serve pages to the client

@@ -4,8 +4,8 @@
   "description": "My first repository",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.cjs",
+    "dev": "nodemon server.cjs"
   },
   "type": "module",
   "author": "",

@@ -1,0 +1,125 @@
+{"prompt": "Today I did bench press at 185 for 3 reps and 3 sets", "completion": "sc:bench-press,reps:3,sets:3,weight:185"}
+{"prompt": "super intense Deadlift at 225 for 10 reps and 4 sets", "completion": "sc:deadlift,reps:10,sets:4,weight:225"}
+{"prompt": "bench at 215 for 10 by 3", "completion": "sc:bench-press,reps:10,sets:3,weight:215"}
+{"prompt": "absolutely killed a dumbbell bench with 50s for 10 for 3 sets", "completion": "sc:dumbbell-bench,reps:10,sets:3,weight:50"}
+{"prompt": "cable pull down for 11 by 5 at 100lbs", "completion": "sc:cable-pull-down,reps:11,sets:5,weight:100"}
+{"prompt": "curls for 10 by 5 with 25s", "completion": "sc:curls,reps:10,sets:5,weight:25"}
+{"prompt": "100 pushups", "completion": "sc:push-ups,reps:100,sets:1,weight:0"}
+{"prompt": "25 sit ups for 5", "completion": "sc:sit-up,reps:25,sets:5,weight:0"}
+{"prompt": "squats for 10 by 3 at 225", "completion": "sc:squats,reps:10,sets:3,weight:225"}
+{"prompt": "barbell swings for 10 with a 20", "completion": "sc:barbell-swings,reps:10,sets:1,weight:20"}
+{"prompt": "Did 5 sets of 8 reps on the leg press machine at 250 lbs", "completion": "sc:leg-press,reps:8,sets:5,weight:250"}
+{"prompt": "Performed 12 reps of dumbbell flys at 40 lbs for 3 sets", "completion": "sc:dumbbell-fly,reps:12,sets:3,weight:40"}
+{"prompt": "Completed 10 sets of 10 reps on the pull-up bar", "completion": "sc:pull-up,reps:10,sets:10,weight:0"}
+{"prompt": "Deadlifted 315 lbs for 5 reps and 3 sets", "completion": "sc:deadlift,reps:5,sets:3,weight:315"}
+{"prompt": "Did 20 reps of jumping squats with just body weight", "completion": "sc:jumping-squats,reps:20,sets:1,weight:0"}
+{"prompt": "Bench pressed 225 lbs for 8 reps and 3 sets", "completion": "sc:bench-press,reps:8,sets:3,weight:225"}
+{"prompt": "Performed 3 sets of 12 reps on the tricep pushdown machine at 70 lbs", "completion": "sc:tricep-pushdown,reps:12,sets:3,weight:70"}
+{"prompt": "Bench pressed 185 lbs for 5 sets of 5 reps", "completion": "sc:bench-press,reps:5,sets:5,weight:185"}
+{"prompt": "Performed 4 sets of 8 reps on the incline dumbbell press at 70 lbs", "completion": "sc:incline-dumbbell-press,reps:8,sets:4,weight:70"}
+{"prompt": "Deadlifted 405 lbs for 3 sets of 3 reps", "completion": "sc:deadlift,reps:3,sets:3,weight:405"}
+{"prompt": "Performed 5 sets of 10 reps on the barbell row at 135 lbs", "completion": "sc:barbell-row,reps:10,sets:5,weight:135"}
+{"prompt": "Squatted 315 lbs for 3 sets of 5 reps", "completion": "sc:squat,reps:5,sets:3,weight:315"}
+{"prompt": "Performed 3 sets of 10 reps on the military press at 95 lbs", "completion": "sc:military-press,reps:10,sets:3,weight:95"}
+{"prompt": "Performed 4 sets of 8 reps on the dumbbell curl at 35 lbs", "completion": "sc:dumbbell-curl,reps:8,sets:4,weight:35"}
+{"prompt": "Performed 3 sets of 10 reps on the tricep extension machine at 120 lbs", "completion": "sc:tricep-extension,reps:10,sets:3,weight:120"}
+{"prompt": "Bench pressed 225 lbs for 3 sets of 3 reps", "completion": "sc:bench-press,reps:3,sets:3,weight:225"}
+{"prompt": "Performed 5 sets of 5 reps on the pull-up bar with body weight", "completion": "sc:pull-up,reps:5,sets:5,weight:0"}
+{"prompt": "Squatted 225 lbs for 4 sets of 6 reps", "completion": "sc:squat,reps:6,sets:4,weight:225"}
+{"prompt": "Performed 3 sets of 12 reps on the cable crossover machine at 60 lbs", "completion": "sc:cable-crossover,reps:12,sets:3,weight:60"}
+{"prompt": "Deadlifted 365 lbs for 5 sets of 5 reps", "completion": "sc:deadlift,reps:5,sets:5,weight:365"}
+{"prompt": "Performed 4 sets of 8 reps on the dumbbell bench press at 70 lbs", "completion": "sc:dumbbell-bench-press,reps:8,sets:4,weight:70"}
+{"prompt": "Squatted 275 lbs for 3 sets of 8 reps", "completion": "sc:squat,reps:8,sets:3,weight:275"}
+{"prompt": "Performed 3 sets of 12 reps on the hammer curl at 25 lbs", "completion": "sc:hammer-curl,reps:12,sets:3,weight:25"}
+{"prompt": "Squats for 5 reps and 3 sets at 275 lbs", "completion": "sc:squats,reps:5,sets:3,weight:275"}
+{"prompt": "Performed 10 reps of barbell curls at 95 lbs for 3 sets", "completion": "sc:barbell-curls,reps:10,sets:3,weight:95"}
+{"prompt": "Deadlifted 365 lbs for 3 reps and 5 sets", "completion": "sc:deadlift,reps:3,sets:5,weight:365"}
+{"prompt": "Did 15 reps of weighted lunges with 40 lb dumbbells", "completion": "sc:lunges,reps:15,sets:1,weight:40"}
+{"prompt": "Performed 8 reps of shoulder press at 135 lbs for 4 sets", "completion": "sc:shoulder-press,reps:8,sets:4,weight:135"}
+{"prompt": "Bench pressed 185 lbs for 10 reps and 4 sets", "completion": "sc:bench-press,reps:10,sets:4,weight:185"}
+{"prompt": "Deadlifted 405 lbs for 1 rep", "completion": "sc:deadlift,reps:1,sets:1,weight:405"}
+{"prompt": "Did 12 reps of dumbbell rows with 60 lbs for 3 sets", "completion": "sc:dumbbell-rows,reps:12,sets:3,weight:60"}
+{"prompt": "Performed 5 reps of overhead squats at 155 lbs for 3 sets", "completion": "sc:overhead-squats,reps:5,sets:3,weight:155"}
+{"prompt": "Squats for 8 reps and 4 sets at 225 lbs", "completion": "sc:squats,reps:8,sets:4,weight:225"}
+{"prompt": "I did 6 sets of 6 reps on the squat machine at 200lbs", "completion": "sc:squat,reps:6,sets:6,weight:200"}
+{"prompt": "Today I lifted 155lbs for 3 sets of 12 reps on the leg extension machine", "completion": "sc:leg-extension,reps:12,sets:3,weight:155"}
+{"prompt": "I did 5 sets of 10 reps on the bench press with 135lbs", "completion": "sc:bench-press,reps:10,sets:5,weight:135"}
+{"prompt": "I performed 4 sets of 8 reps on the military press with 95lbs", "completion": "sc:military-press,reps:8,sets:4,weight:95"}
+{"prompt": "I did 3 sets of 15 reps on the cable fly machine with 30lbs", "completion": "sc:cable-fly,reps:15,sets:3,weight:30"}
+{"prompt": "I did 8 reps of deadlifts at 315lbs for 5 sets", "completion": "sc:deadlift,reps:8,sets:5,weight:315"}
+{"prompt": "Today I did 5 sets of 5 reps on the pull-up bar", "completion": "sc:pull-up,reps:5,sets:5,weight:0"}
+{"prompt": "I performed 3 sets of 12 reps on the incline bench press at 125lbs", "completion": "sc:incline-bench-press,reps:12,sets:3,weight:125"}
+{"prompt": "I did 10 sets of 10 reps on the leg press machine at 300lbs", "completion": "sc:leg-press,reps:10,sets:10,weight:300"}
+{"prompt": "Today I did 3 sets of 8 reps on the barbell curl with 65lbs", "completion": "sc:barbell-curl,reps:8,sets:3,weight:65"}
+{"prompt": "I performed 4 sets of 12 reps on the lat pulldown machine with 120lbs", "completion": "sc:lat-pulldown,reps:12,sets:4,weight:120"}
+{"prompt": "I did 5 sets of 5 reps on the clean and press with 135lbs", "completion": "sc:clean-and-press,reps:5,sets:5,weight:135"}
+{"prompt": "Today I did 3 sets of 12 reps on the cable row machine with 90lbs", "completion": "sc:cable-row,reps:12,sets:3,weight:90"}
+{"prompt": "I did 8 reps of bench dips for 5 sets", "completion": "sc:bench-dips,reps:8,sets:5,weight:0"}
+{"prompt": "I performed 4 sets of 8 reps on the dumbbell pullover with 50lbs", "completion": "sc:dumbbell-pullover,reps:8,sets:4,weight:50"}
+{"prompt": "Performed 3 sets of 10 reps on the military press machine at 90 lbs", "completion": "sc:military-press,reps:10,sets:3,weight:90"}
+{"prompt": "Did 5 sets of 5 reps on the power clean with 135 lbs", "completion": "sc:power-clean,reps:5,sets:5,weight:135"}
+{"prompt": "Deadlifted 405 lbs for 3 reps and 5 sets", "completion": "sc:deadlift,reps:3,sets:5,weight:405"}
+{"prompt": "Bench pressed 245 lbs for 5 reps and 3 sets", "completion": "sc:bench-press,reps:5,sets:3,weight:245"}
+{"prompt": "Performed 4 sets of 12 reps on the seated row machine at 100 lbs", "completion": "sc:seated-row,reps:12,sets:4,weight:100"}
+{"prompt": "Squatted 315 lbs for 3 reps and 4 sets", "completion": "sc:squats,reps:3,sets:4,weight:315"}
+{"prompt": "Did 8 reps of standing barbell curls at 65 lbs for 3 sets", "completion": "sc:standing-barbell-curls,reps:8,sets:3,weight:65"}
+{"prompt": "Performed 3 sets of 8 reps on the leg extension machine at 110 lbs", "completion": "sc:leg-extension,reps:8,sets:3,weight:110"}
+{"prompt": "Performed 5 sets of 10 reps on the dumbbell shoulder press with 45 lbs", "completion": "sc:dumbbell-shoulder-press,reps:10,sets:5,weight:45"}
+{"prompt": "Deadlifted 315 lbs for 10 reps and 3 sets", "completion": "sc:deadlift,reps:10,sets:3,weight:315"}
+{"prompt": "Did 5 sets of 5 reps on the barbell snatch with 95 lbs", "completion": "sc:barbell-snatch,reps:5,sets:5,weight:95"}
+{"prompt": "Performed 4 sets of 12 reps on the cable row machine at 80 lbs", "completion": "sc:cable-row,reps:12,sets:4,weight:80"}
+{"prompt": "Squatted 225 lbs for 12 reps and 3 sets", "completion": "sc:squats,reps:12,sets:3,weight:225"}
+{"prompt": "Did 8 reps of hammer curls at 35 lbs for 4 sets", "completion": "sc:hammer-curls,reps:8,sets:4,weight:35"}
+{"prompt": "Performed 3 sets of 8 reps on the leg curl machine at 95 lbs", "completion": "sc:leg-curl,reps:8,sets:3,weight:95"}
+{"prompt": "Performed 5 sets of 10 reps on the dumbbell bench press with 60 lbs", "completion": "sc:dumbbell-bench-press,reps:10,sets:5,weight:60"}
+{"prompt": "Today's workout included 5 rounds of weighted lunges, each round I used 40 lb dumbbells and completed 8 reps on each leg", "completion": "sc:lunges,reps:8,sets:5,weight:40"}
+{"prompt": "I did a total of 30 bicep curls, breaking it up into 3 sets of 10 using 20 lb dumbbells", "completion": "sc:bicep-curls,reps:10,sets:3,weight:20"}
+{"prompt": "For today's workout, I did kettlebell swings with a 40 pound kettlebell, doing 15 swings in a row for 4 sets", "completion": "sc:kettlebell-swings,reps:15,sets:4,weight:40"}
+{"prompt": "I completed 3 rounds of farmer's walks, each round I carried 50 lb weights in each hand for 50 feet", "completion": "sc:farmer's-walk,distance:50,sets:3,weight:50"}
+{"prompt": "I did a total of 24 pushups, breaking it up into 4 sets of 6", "completion": "sc:push-ups,reps:6,sets:4,weight:0"}
+{"prompt": "I did dumbbell rows for 3 rounds, doing 12 repetitions on each side with 35 lb dumbbells", "completion": "sc:dumbbell-rows,reps:12,sets:3,weight:35"}
+{"prompt": "I completed 6 rounds of box jumps, each round I jumped onto a 24 inch box 10 times", "completion": "sc:box-jumps,reps:10,sets:6,height:24"}
+{"prompt": "200m sprints x 5", "completion": "sc:sprints,reps:5,sets:1,weight:0,distance:200"}
+{"prompt": "20 pull-ups, 15 push-ups, 10 dips, 5 rounds", "completion": "sc:pull-up,reps:20,sets:5,weight:0sc:push-ups,reps:15,sets:5,weight:0sc:dips,reps:10,sets:5,weight:0"}
+{"prompt": "12 tire flips, 5 sets", "completion": "sc:tire-flips,reps:12,sets:5,weight:0"}
+{"prompt": "10 box jumps, 5 sets", "completion": "sc:box-jumps,reps:10,sets:5,weight:0"}
+{"prompt": "15 burpees, 3 rounds", "completion": "sc:burpees,reps:15,sets:3,weight:0"}
+{"prompt": "5x5 power cleans at 135 lbs", "completion": "sc:power-cleans,reps:5,sets:5,weight:135"}
+{"prompt": "10 box step-ups (each leg), 4 sets", "completion": "sc:box-step-ups,reps:10,sets:4,weight:0"}
+{"prompt": "Max effort pull-ups, 3 sets", "completion": "sc:pull-up,sets:3,weight:0"}
+{"prompt": "20 goblet squats at 50 lbs, 3 sets", "completion": "sc:goblet-squats,reps:20,sets:3,weight:50"}
+{"prompt": "Completed 5 sets of 5 reps on the back squat with 315 lbs", "completion": "sc:back-squat,reps:5,sets:5,weight:315"}
+{"prompt": "Performed a heavy single on the deadlift at 405 lbs", "completion": "sc:deadlift,reps:1,sets:1,weight:405"}
+{"prompt": "Did a 3 rep max on the bench press at 225 lbs", "completion": "sc:bench-press,reps:3,sets:1,weight:225"}
+{"prompt": "Completed 10 sets of 2 reps on the power clean with 185 lbs", "completion": "sc:power-clean,reps:2,sets:10,weight:185"}
+{"prompt": "Did a 5x5 on the military press with 135 lbs", "completion": "sc:military-press,reps:5,sets:5,weight:135"}
+{"prompt": "Performed a 3 rep max on the front squat at 225 lbs", "completion": "sc:front-squat,reps:3,sets:1,weight:225"}
+{"prompt": "Completed 5 sets of 3 reps on the weighted pull-up with 45 lbs", "completion": "sc:weighted-pull-up,reps:3,sets:5,weight:45"}
+{"prompt": "Did a heavy single on the snatch at 185 lbs", "completion": "sc:snatch,reps:1,sets:1,weight:185"}
+{"prompt": "Performed a 5x5 on the bench press with 185 lbs", "completion": "sc:bench-press,reps:5,sets:5,weight:185"}
+{"prompt": "Completed 5 sets of 5 reps on the deadlift with 365 lbs", "completion": "sc:deadlift,reps:5,sets:5,weight:365"}
+{"prompt": "Did a 3 rep max on the overhead squat at 155 lbs", "completion": "sc:overhead-squat,reps:3,sets:1,weight:155"}
+{"prompt": "Performed 10 sets of 1 rep on the power snatch with 135 lbs", "completion": "sc:power-snatch,reps:1,sets:10,weight:135"}
+{"prompt": "Completed 5 sets of 5 reps on the incline bench press with 205 lbs", "completion": "sc:incline-bench-press,reps:5,sets:5,weight:205"}
+{"prompt": "Did a 3 rep max on the weighted dip with 90 lbs", "completion": "sc:weighted-dip,reps:3,sets:1,weight:90"}
+{"prompt": "Performed a heavy single on the clean and jerk at 245 lbs", "completion": "sc:clean-and-jerk,reps:1,sets:1,weight:245"}
+{"prompt": "The quick brown fox jumps over the lazy dog", "completion": "error:invalid-input"}
+{"prompt": "I need to finish my project before the deadline", "completion": "error:invalid-input"}
+{"prompt": "The weather today is sunny and warm", "completion": "error:invalid-input"}
+{"prompt": "I love listening to music while I work", "completion": "error:invalid-input"}
+{"prompt": "I'm sorry, I can't make it to the meeting today", "completion": "error:invalid-input"}
+{"prompt": "I need to buy groceries for the week", "completion": "error:invalid-input"}
+{"prompt": "I'm looking for a new job", "completion": "error:invalid-input"}
+{"prompt": "I think I left my keys at home", "completion": "error:invalid-input"}
+{"prompt": "I want to learn a new language", "completion": "error:invalid-input"}
+{"prompt": "I'm not feeling well today", "completion": "error:invalid-input"}
+{"prompt": "I did a few reps of weightlifting today", "completion": "error:missing-exercise-details"}
+{"prompt": "Just finished a workout, feeling great", "completion": "error:missing-exercise-details"}
+{"prompt": "Did some cardio and lifted some weights today", "completion": "error:missing-exercise-details"}
+{"prompt": "Worked out for an hour at the gym today", "completion": "error:missing-exercise-details"}
+{"prompt": "Got a good pump at the gym today", "completion": "error:missing-exercise-details"}
+{"prompt": "Did a few sets of exercises today", "completion": "error:missing-exercise-details"}
+{"prompt": "Crushed a workout today", "completion": "error:missing-exercise-details"}
+{"prompt": "Sweated a lot at the gym today", "completion": "error:missing-exercise-details"}
+{"prompt": "Spent some time at the gym today", "completion": "error:missing-exercise-details"}
+{"prompt": "Exercised today", "completion": "error:missing-exercise-details"}
