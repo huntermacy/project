@@ -1,0 +1,10 @@
+{"prompt": "Today I did bench press at 185 for 3 reps and 3 sets ->", "completion": "sc:bench-press,reps:3,sets:3,weight:185\n"}
+{"prompt": "super intense Deadlift at 225 for 10 reps and 4 sets ->", "completion": "sc:deadlift,reps:10,sets:4,weight:225\n"}
+{"prompt": "bench at 215 for 10 by 3 -> ", "completion": "sc:bench-press,reps:10,sets:3,weight:215\n"}
+{"prompt": "absolutely killed a dumbbell bench with 50s for 10 for 3 sets -> ", "completion": "sc:dumbbell-bench,reps:10,sets:3,weight:50\n"}
+{"prompt": "cable pull down for 11 by 5 at 100lbs -> ", "completion": "sc:cable-pull-down,reps:11,sets:5,weight:100\n"}
+{"prompt": "curls for 10 by 5 with 25s -> ", "completion": "sc:curls,reps:10,sets:5,weight:25\n"}
+{"prompt": "100 pushups -> ", "completion": "sc:push-ups,reps:100,sets:1,weight:0\n"}
+{"prompt": "25 sit ups for 5 -> ", "completion": "sc:sit-up,reps:25,sets:5,weight:0\n"}
+{"prompt": "squats for 10 by 3 at 225 -> ", "completion": "sc:squats,reps:10,sets:3,weight:225\n"}
+{"prompt": "barbell swings for 10 with a 20 -> ", "completion": "sc:barbell-swings,reps:10,sets:1,weight:20\n"}

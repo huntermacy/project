@@ -1,0 +1,11 @@
+[
+  {
+    "name": "Barbell Squat",
+    "description": "Strength exercise targeting the legs and glutes using a barbell.",
+    "muscle_groups": ["quadriceps", "hamstrings", "glutes"],
+    "equipment": ["barbell", "weights"],
+    "intensity_level": "moderate",
+    "terrain": "outdoor",
+    "duration": "30 minutes"
+  }
+]
