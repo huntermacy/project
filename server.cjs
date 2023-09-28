@@ -1,51 +1,16 @@
-require('dotenv').config()
+require('dotenv').config();
 const express = require('express');
+const { PORT } = require('./config');
+const middlewares = require('./middlewares');
+const routes = require('./routes');
+
 const app = express();
 
-//Environment Variables
-const PORT = process.env.PORT;
+// Apply middlewares
+middlewares(app);
 
-app.use(express.static('pages'));
-app.use(express.static('public'));
-app.use(express.static('functions'));
-app.use(express.static('css'));
-app.use(express.json());
+// Apply routes
+routes(app);
 
-app.use(express.urlencoded({ extended: false }));
-
-const workout = require('./api/workout.cjs')
-app.use('/workout', workout)
-
-const workoutType = require('./api/workout.cjs')
-app.use('/type', workoutType)
-
-const openAi = require("./api/openai.cjs")
-app.use("/api/openai", openAi)
-
-const feedback = require("./api/feedback.cjs")
-app.use("/api/feedback", feedback)
-
-//Serve pages to the client
-app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/pages/home.html");
-})
-app.get("/stats", (req, res) => {
-    res.sendFile(__dirname + "/pages/stats.html");
-})
-app.get("/log", (req, res) => {
-    res.sendFile(__dirname + "/pages/log.html");
-})
-app.get("/feedback", (req, res) => {
-    res.sendFile(__dirname + "/pages/feedback.html");
-})
-
-
-//Server starts listening on PORT
-app.listen(PORT, () => console.log(`Console listening at ${PORT}`))
-
-app.options("*", (req, res, next) => {
-    res.header('Access-Control-Allow-Origin', "*");
-    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, OPTIONS');
-    res.header('Access-Control-Allow-Headers', 'Authorization, Content-Length, X-Requested-With');
-    res.send(200);
-});
+// Start the server
+app.listen(PORT, () => console.log(`Console listening at ${PORT}`));
