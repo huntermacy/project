@@ -2,6 +2,9 @@ const express = require('express');
 
 module.exports = function(app) {
     app.use(express.static('public')); // Assuming all static assets are under 'public'
+    app.use(express.static('functions'));
+    app.use(express.static('pages'));
+    app.use(express.static('css'));
     app.use(express.json());
     app.use(express.urlencoded({ extended: false }));
 
