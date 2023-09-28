@@ -1,8 +1,8 @@
 require('dotenv').config();
 const express = require('express');
-const { PORT } = require('./config');
-const middlewares = require('./middlewares');
-const routes = require('./routes');
+const { PORT } = require('./config.cjs');
+const middlewares = require('./middlewares.cjs');
+const routes = require('./routes.cjs');
 
 const app = express();
 
